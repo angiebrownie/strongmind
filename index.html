@@ -1,0 +1,1284 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI/UX Engineer - Angie Brownie</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container-lg">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="images/moon-pie-logo.png" title="Moon Pie Logo" alt="Moon Pie Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Pizza Builder</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="">
+              <button class="btn btn-outline-success" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="row pg-title">
+        <div class="col-md-12">
+          <h1>Pizza Builder</h1>
+          <p>The Pizza Builder allows you to edit, add, or remove options. To begin, select the type of pizza you'd like to edit.</p>
+        </div><!--end .col-12-->
+      </div> <!--end .row-->
+      <div class="row builder">
+        <div class="col-md-4 preview">
+          <h4>Supreme Pizza</h4>
+          <img src="images/supreme-lg.png" class="img-fluid" alt="Pizza preview">
+        </div> <!--end .preview-->
+        <div class="col-sm-1">&nbsp;</div>
+        <div class="col-md-7 info">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item"><!--pizza names-->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Pizza Name
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--BBQ Chicken Pizza-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/bbq-cxn-thumb.png" title="BBQ Chicken pizza thumbnail" alt="BBQ Chicken pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>BBQ Chicken</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end BBQ Chicken-->
+                  <div class="row"><!--cheese-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/cheese-pizza-thumb.png" title="Cheese pizza thumbnail" alt="Cheese pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Cheese</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end cheese-->
+                  <div class="row"><!--Chicken Alfredo Pizza-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/chicken-pizza-thumb.png" title="Chicken Alfredo pizza thumbnail" alt="Chicken Alfredo pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Chicken Alfredo</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end Chicken Alfredo-->
+                  <div class="row"><!--hawaiian-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/hawaiian-pizza-thumb.png" title="Hawaiian pizza thumbnail" alt="Hawaiian pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Hawaiian</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end hawaiian-->
+                  <div class="row"><!--meat master-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/meat-pizza-thumb.png" title="Meat Master pizza thumbnail" alt="Meat Master pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Meat Master</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end Meat Master-->
+                  <div class="row"><!--pepperoni-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/pepperoni-pizza-thumb.png" title="Pepperoni pizza thumbnail" alt="Pepperoni pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Pepperoni</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end pepperoni-->
+                  <div class="row"><!--supreme-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/supreme-pizza-thumb.png" title="Supreme pizza thumbnail" alt="Supreme pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8 active">
+                      <p>Supreme</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/edit-icon.png" data-bs-toggle="modal" data-bs-target="#editModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="editModalLabel">Edit this option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/delete-icon.png" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="deleteModalLabel">Are you sure you want to delete this item?</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>This action cannot be undone.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                              <button type="button" class="btn btn-primary">Yes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end supreme-->
+                  <div class="row"><!--veggie-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/pepperoni-pizza-thumb.png" title="Veggie pizza thumbnail" alt="Veggie pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Veggie</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end Veggie-->
+                  <div class="row"><!--Customize-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/cheese-pizza-thumb.png" title="Customiz pizza thumbnail" alt="Customize pizza thumbnail">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Customize</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end Customize-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#namesModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="namesModal" tabindex="-1" aria-labelledby="namesModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="namesModalLabel">Add a new option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end add option-->
+                </div><!--end .accordion-item-->
+              </div>
+            </div><!--end .accordion-item pizza names-->
+            <div class="accordion-item"><!--size-->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Size
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--small-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>Small</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end small-->
+                  <div class="row"><!--medium-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9 active">
+                      <p>Medium</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end medium-->
+                  <div class="row"><!--large-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>Large</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end large-->
+                  <div class="row"><!--x-large-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>X-Large</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end x-large-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#sizeModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="sizeModal" tabindex="-1" aria-labelledby="sizeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="sizeModalLabel">Add a new option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end add option-->
+                </div>
+              </div>
+            </div> <!--end .accordion-item size-->
+            <div class="accordion-item"><!--crust-->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Crust
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--original-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8 active">
+                      <p>Original</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end original-->
+                  <div class="row"><!--thin-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Thin</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end thin-->
+                  <div class="row"><!--deep dish-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Deep Dish</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end deep dish-->
+                  <div class="row"><!--gluten-free-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Gluten-free</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end gluten-free-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                      <div class="col-sm-1">
+                        <!--  Trigger modal -->
+                        <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#crustModal">
+                        <!-- Modal -->
+                        <div class="modal fade" id="crustModal" tabindex="-1" aria-labelledby="crustModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="crustModalLabel">Add a new option.</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!--end modal-->
+                    </div><!--end add option-->
+                </div>
+              </div>
+            </div> <!--end .accordion-item--><!--crust-->
+            <div class="accordion-item"><!--sauce-->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  Sauce
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--alfredo-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Alfredo</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end alfredo-->
+                  <div class="row"><!--bbq-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>BBQ</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end bbq-->
+                  <div class="row"><!--buffalo-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Buffalo</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end buffalo-->
+                  <div class="row"><!--original-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8 active">
+                      <p>Original (Marinara)</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end original-->
+                  <div class="row"><!--ranch-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Ranch</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end ranch-->
+                  <div class="row"><!--none-->
+                    <div class="col-sm-10">
+                      <p>None</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end none-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#sauceModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="sauceModal" tabindex="-1" aria-labelledby="sauceModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="sauceModalLabel">Add a new option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end add option-->
+                </div>
+              </div>
+            </div> <!--end .accordion-item-->
+            <div class="accordion-item"><!--cheese-->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                  Cheese Amount
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--normal-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9 active">
+                      <p>Normal</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end normal-->
+                  <div class="row"><!--light-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>Light</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end light-->
+                  <div class="row"><!--extra-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>Extra</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end extra-->
+                  <div class="row"><!--gluten-free-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-9">
+                      <p>None</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end gluten-free-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#cheeseAmtModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="cheeseAmtModal" tabindex="-1" aria-labelledby="cheeseAmtModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="cheeseAmtModalLabel">Add a new option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end add option-->
+                </div>
+              </div>
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                  Cheese Type
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--mozzarella-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8 active">
+                      <p>Mozzarella</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end mozzarella-->
+                  <div class="row"><!--3-cheese-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>3-Cheese Blend</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end 3-cheese-->
+                  <div class="row"><!--asiago-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Asiago</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end asiago-->
+                  <div class="row"><!--feta-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Feta</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end feta-->
+                  <div class="row"><!--parmesan-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-8">
+                      <p>Parmesan</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end parmesan-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#cheeseTypeModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="cheeseTypeModal" tabindex="-1" aria-labelledby="cheeseTypeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="cheeseTypeModalLabel">Add a new option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end add option-->
+                </div>
+              </div>
+            </div><!--end .accordion-item cheese-->
+            <div class="accordion-item"><!--Meats-->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                  Meats
+                </button>
+              </h2>
+              <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--anchovies-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/anchovies-thumb.png" title="Anchovies thumbnail" alt="Anchovies thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Anchovies</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end anchovies-->
+                  <div class="row"><!--bacon-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/bacon-thumb.png" title="Baon thumbnail" alt="Bacon thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Bacon</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end bacon-->
+                  <div class="row"><!--beef-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/beef-thumb.png" title="Anchovies thumbnail" alt="Anchovies thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Beef</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end beef-->
+                  <div class="row"><!--canadian bacon-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/canadian-bacon-thumb.png" title="Canadian Bacon thumbnail" alt="Canadian Bacon thumbnail">
+                    </div>
+                    <div class="col-sm-7 active">
+                      <p>Canadian Bacon</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end canadian bacon-->
+                  <div class="row"><!--chicken-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/chicken-thumb.png" title="Chicken thumbnail" alt="Chicken thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Chicken</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end chicken-->
+                  <div class="row"><!--pepperoni-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/pepperoni-thumb.png" title="Pepperoni thumbnail" alt="Pepperoni thumbnail">
+                    </div>
+                    <div class="col-sm-7 active">
+                      <p>Pepperoni</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end pepperoni-->
+                  <div class="row"><!--sausage-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/spicy-sausage-thumb.png" title="Sausage thumbnail" alt="Sausage thumbnail">
+                    </div>
+                    <div class="col-sm-7 active">
+                      <p>Sausage</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end sausage-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#meatModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="meatModal" tabindex="-1" aria-labelledby="meatModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="meatModalLabel">Add a new option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end add option-->
+                </div><!--end .accordion-body-->
+              </div>
+            </div><!--end .accordion-item meats-->
+            <div class="accordion-item"><!--Meats-->
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                  Veggies
+                </button>
+              </h2>
+              <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <div class="row"><!--banana pepper-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/banana-pepper-thumb.png" title="Banana pepper thumbnail" alt="Banana pepper thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Bananna Peppers</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end banana pepper-->
+                  <div class="row"><!--black olives-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/black-olives.png" title="Black Olives thumbnail" alt="Black Olives thumbnail">
+                    </div>
+                    <div class="col-sm-7 active">
+                      <p>Black Olives</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end black olives-->
+                  <div class="row"><!--green peppers-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/green-pepper-thumb.png" title="Green Pepper thumbnail" alt="Green Pepper thumbnail">
+                    </div>
+                    <div class="col-sm-7 active">
+                      <p>Green Peppers</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end green peppers-->
+                  <div class="row"><!--jalapeno peppers-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/jalapeno-thumb.png" title="Jalapenos thumbnail" alt="Jalapenos thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Jalape&#241;os</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end jalapenos-->
+                  <div class="row"><!--mushrooms-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/mushroom-thumb.png" title="Mushrooms thumbnail" alt="Mushrooms thumbnail">
+                    </div>
+                    <div class="col-sm-7 active">
+                      <p>Mushrooms</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end mushrooms-->
+                  <div class="row"><!--onions-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/onion-thumb.png" title="Onions thumbnail" alt="Onions thumbnail">
+                    </div>
+                    <div class="col-sm-7 active">
+                      <p>Onions</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end onions-->
+                  <div class="row"><!--pineapple-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/pineapple-thumb.png" title="Pineapple thumbnail" alt="Sausage thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Pineapple</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end pineapple-->
+                  <div class="row"><!--spinach-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/spinach-thumb.png" title="Spinach thumbnail" alt="Spinach thumbnail">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Spinach</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end spinach-->
+                  <div class="row"><!--tomatoes-->
+                    <div class="col-sm-1">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/tomato-thumb.png" title="Tomatoes thumbnail" alt="Tomatoes thumbnail">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/add-icon.png" title="Add icon" alt="Add icon">
+                    </div>
+                    <div class="col-sm-7">
+                      <p>Tomatoes</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
+                    </div>
+                    <div class="col-sm-1">
+                      <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
+                    </div>
+                  </div><!--end tomatoes-->
+                  <div class="row"><!--add option-->
+                    <div class="col-sm-11">
+                      <p>Add Option</p>
+                    </div>
+                    <div class="col-sm-1">
+                      <!--  Trigger modal -->
+                      <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#veggieModal">
+                      <!-- Modal -->
+                      <div class="modal fade" id="veggieModal" tabindex="-1" aria-labelledby="veggieModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="veggieModalLabel">Add a new option.</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="form-control" type="text" placeholder="Enter text" aria-label="add option input example">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!--end modal-->
+                  </div><!--end add option-->
+                </div><!--end .accordion-body-->
+              </div>
+            </div><!--end .accordion-item meats-->
+        </div> <!--end .info-->
+        <div class="next">
+          <button type="button" class="btn btn-secondary">Clear all</button>
+          <button type="button" class="btn btn-primary">Save and continue</button>
+        </div>
+      </div><!--end .row-->
+    </div> <!--end .content-->
+
+    <footer class="row">
+      <div class="col-12">
+        <p>&copy; Copyright 2023 by UI/UX Engineer Candidate&mdash;Angie Brownie</p>
+      </div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>

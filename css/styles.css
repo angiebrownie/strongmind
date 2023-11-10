@@ -1,0 +1,129 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background: #d2d2d2;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    color: #ca2521;
+    text-align: center;
+}
+
+h2 button {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+h4 {
+    text-align: center;
+}
+
+.container-lg {
+    background-color: #fff;
+    border: 1px solid #707070;
+    overflow: hidden;
+}
+
+header {
+    margin: 10px 0;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #fff !important;
+}
+
+.pg-title {
+    background-color: #F6D2A1;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.pg-title {
+    text-align: center;
+}
+
+.builder {
+    margin-bottom: 50px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.accordion-item .row {
+    border-bottom: 1px solid #d2d2d2;
+    padding: 20px 0 5px 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #fbe9d0;
+    color: #000;
+    font-weight: 600;
+}
+
+.accordion-item .active {
+    font-weight: 700;
+}
+
+/*Buttons*/
+.btn-primary {
+    background-color: #6ab547;
+    border-color: #6ab547;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #134611;
+    border-color: #134611;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    border-color: #d9d9d9;
+    color: #333;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+
+.next {
+    border-top: 1px solid #d9d9d9;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.next .btn:first-child {
+    margin-right: 10px;
+}
+
+/* Checkboxes */
+.form-check-input {
+    border-color: #707070;
+    height: 20px;
+    width: 20px;
+}
+
+footer {
+    background-color: #61120F;
+    margin-top: 30px;
+    padding: 15px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 10px;
+    margin-top: 15px;
+    text-align: center;
+}
