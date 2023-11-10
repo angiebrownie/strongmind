@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="container-lg">
+  <div class="container-fluid">
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -22,16 +22,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Pizza Builder</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
               </li>
             </ul>
             <form class="d-flex" role="">
@@ -43,18 +37,18 @@
     </header>
     <div class="content">
       <div class="row pg-title">
-        <div class="col-md-12">
+        <div class="col-12">
           <h1>Pizza Builder</h1>
           <p>The Pizza Builder allows you to edit, add, or remove options. To begin, select the type of pizza you'd like to edit.</p>
         </div><!--end .col-12-->
       </div> <!--end .row-->
       <div class="row builder">
-        <div class="col-md-4 preview">
+        <div class="col-4 preview">
           <h4>Supreme Pizza</h4>
           <img src="images/supreme-lg.png" class="img-fluid" alt="Pizza preview">
         </div> <!--end .preview-->
-        <div class="col-sm-1">&nbsp;</div>
-        <div class="col-md-7 info">
+        <div class="col-1">&nbsp;</div>
+        <div class="col-7 info">
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item"><!--pizza names-->
               <h2 class="accordion-header">
@@ -65,125 +59,118 @@
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--BBQ Chicken Pizza-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/bbq-cxn-thumb.png" title="BBQ Chicken pizza thumbnail" alt="BBQ Chicken pizza thumbnail">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>BBQ Chicken</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end BBQ Chicken-->
                   <div class="row"><!--cheese-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/cheese-pizza-thumb.png" title="Cheese pizza thumbnail" alt="Cheese pizza thumbnail">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Cheese</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end cheese-->
                   <div class="row"><!--Chicken Alfredo Pizza-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/chicken-pizza-thumb.png" title="Chicken Alfredo pizza thumbnail" alt="Chicken Alfredo pizza thumbnail">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Chicken Alfredo</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end Chicken Alfredo-->
                   <div class="row"><!--hawaiian-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/hawaiian-pizza-thumb.png" title="Hawaiian pizza thumbnail" alt="Hawaiian pizza thumbnail">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Hawaiian</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end hawaiian-->
                   <div class="row"><!--meat master-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
-                      <img src="images/meat-pizza-thumb.png" title="Meat Master pizza thumbnail" alt="Meat Master pizza thumbnail">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Meat Master</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end Meat Master-->
                   <div class="row"><!--pepperoni-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/pepperoni-pizza-thumb.png" title="Pepperoni pizza thumbnail" alt="Pepperoni pizza thumbnail">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Pepperoni</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end pepperoni-->
                   <div class="row"><!--supreme-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/supreme-pizza-thumb.png" title="Supreme pizza thumbnail" alt="Supreme pizza thumbnail">
                     </div>
-                    <div class="col-sm-8 active">
+                    <div class="col-8 active">
                       <p>Supreme</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/edit-icon.png" data-bs-toggle="modal" data-bs-target="#editModal">
                       <!-- Modal -->
@@ -205,7 +192,7 @@
                         </div>
                       </div>
                     </div><!--end modal-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/delete-icon.png" data-bs-toggle="modal" data-bs-target="#deleteModal">
                       <!-- Modal -->
@@ -229,46 +216,44 @@
                     </div><!--end modal-->
                   </div><!--end supreme-->
                   <div class="row"><!--veggie-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/pepperoni-pizza-thumb.png" title="Veggie pizza thumbnail" alt="Veggie pizza thumbnail">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Veggie</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end Veggie-->
                   <div class="row"><!--Customize-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/cheese-pizza-thumb.png" title="Customiz pizza thumbnail" alt="Customize pizza thumbnail">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Customize</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end Customize-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#namesModal">
                       <!-- Modal -->
@@ -303,70 +288,66 @@
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--small-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-9">
                       <p>Small</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end small-->
                   <div class="row"><!--medium-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-9 active">
+                    <div class="col-9 active">
                       <p>Medium</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end medium-->
                   <div class="row"><!--large-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-9">
                       <p>Large</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end large-->
                   <div class="row"><!--x-large-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-9">
                       <p>X-Large</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end x-large-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#sizeModal">
                       <!-- Modal -->
@@ -401,70 +382,66 @@
               <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--original-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-8 active">
+                    <div class="col-8 active">
                       <p>Original</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end original-->
                   <div class="row"><!--thin-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Thin</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end thin-->
                   <div class="row"><!--deep dish-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Deep Dish</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end deep dish-->
                   <div class="row"><!--gluten-free-->
-                    <div class="col-sm-1">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
+                    <div class="col-1">
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Gluten-free</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end gluten-free-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                      <div class="col-sm-1">
+                      <div class="col-1">
                         <!--  Trigger modal -->
                         <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#crustModal">
                         <!-- Modal -->
@@ -499,111 +476,110 @@
               <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--alfredo-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Alfredo</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end alfredo-->
                   <div class="row"><!--bbq-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>BBQ</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end bbq-->
                   <div class="row"><!--buffalo-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Buffalo</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end buffalo-->
                   <div class="row"><!--original-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8 active">
+                    <div class="col-8 active">
                       <p>Original (Marinara)</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end original-->
                   <div class="row"><!--ranch-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Ranch</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end ranch-->
                   <div class="row"><!--none-->
-                    <div class="col-sm-10">
+                    <div class="col-10">
                       <p>None</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end none-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#sauceModal">
                       <!-- Modal -->
@@ -638,70 +614,70 @@
               <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--normal-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-9 active">
+                    <div class="col-9 active">
                       <p>Normal</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end normal-->
                   <div class="row"><!--light-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-9">
                       <p>Light</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end light-->
                   <div class="row"><!--extra-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-9">
                       <p>Extra</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end extra-->
                   <div class="row"><!--gluten-free-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-9">
                       <p>None</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end gluten-free-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#cheeseAmtModal">
                       <!-- Modal -->
@@ -734,100 +710,100 @@
               <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--mozzarella-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8 active">
+                    <div class="col-8 active">
                       <p>Mozzarella</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end mozzarella-->
                   <div class="row"><!--3-cheese-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>3-Cheese Blend</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end 3-cheese-->
                   <div class="row"><!--asiago-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Asiago</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end asiago-->
                   <div class="row"><!--feta-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Feta</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end feta-->
                   <div class="row"><!--parmesan-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p>Parmesan</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end parmesan-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#cheeseTypeModal">
                       <!-- Modal -->
@@ -862,157 +838,157 @@
               <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--anchovies-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/anchovies-thumb.png" title="Anchovies thumbnail" alt="Anchovies thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Anchovies</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end anchovies-->
                   <div class="row"><!--bacon-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/bacon-thumb.png" title="Baon thumbnail" alt="Bacon thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Bacon</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end bacon-->
                   <div class="row"><!--beef-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/beef-thumb.png" title="Anchovies thumbnail" alt="Anchovies thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Beef</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end beef-->
                   <div class="row"><!--canadian bacon-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/canadian-bacon-thumb.png" title="Canadian Bacon thumbnail" alt="Canadian Bacon thumbnail">
                     </div>
-                    <div class="col-sm-7 active">
+                    <div class="col-7 active">
                       <p>Canadian Bacon</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end canadian bacon-->
                   <div class="row"><!--chicken-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/chicken-thumb.png" title="Chicken thumbnail" alt="Chicken thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Chicken</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end chicken-->
                   <div class="row"><!--pepperoni-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/pepperoni-thumb.png" title="Pepperoni thumbnail" alt="Pepperoni thumbnail">
                     </div>
-                    <div class="col-sm-7 active">
+                    <div class="col-7 active">
                       <p>Pepperoni</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end pepperoni-->
                   <div class="row"><!--sausage-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/spicy-sausage-thumb.png" title="Sausage thumbnail" alt="Sausage thumbnail">
                     </div>
-                    <div class="col-sm-7 active">
+                    <div class="col-7 active">
                       <p>Sausage</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end sausage-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#meatModal">
                       <!-- Modal -->
@@ -1047,199 +1023,199 @@
               <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                   <div class="row"><!--banana pepper-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/banana-pepper-thumb.png" title="Banana pepper thumbnail" alt="Banana pepper thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Bananna Peppers</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end banana pepper-->
                   <div class="row"><!--black olives-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/black-olives.png" title="Black Olives thumbnail" alt="Black Olives thumbnail">
                     </div>
-                    <div class="col-sm-7 active">
+                    <div class="col-7 active">
                       <p>Black Olives</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end black olives-->
                   <div class="row"><!--green peppers-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/green-pepper-thumb.png" title="Green Pepper thumbnail" alt="Green Pepper thumbnail">
                     </div>
-                    <div class="col-sm-7 active">
+                    <div class="col-7 active">
                       <p>Green Peppers</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end green peppers-->
                   <div class="row"><!--jalapeno peppers-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/jalapeno-thumb.png" title="Jalapenos thumbnail" alt="Jalapenos thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Jalape&#241;os</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end jalapenos-->
                   <div class="row"><!--mushrooms-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/mushroom-thumb.png" title="Mushrooms thumbnail" alt="Mushrooms thumbnail">
                     </div>
-                    <div class="col-sm-7 active">
+                    <div class="col-7 active">
                       <p>Mushrooms</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end mushrooms-->
                   <div class="row"><!--onions-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/onion-thumb.png" title="Onions thumbnail" alt="Onions thumbnail">
                     </div>
-                    <div class="col-sm-7 active">
+                    <div class="col-7 active">
                       <p>Onions</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/remove-icon.png" title="Remove icon" alt="Remove icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end onions-->
                   <div class="row"><!--pineapple-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/pineapple-thumb.png" title="Pineapple thumbnail" alt="Sausage thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Pineapple</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end pineapple-->
                   <div class="row"><!--spinach-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/spinach-thumb.png" title="Spinach thumbnail" alt="Spinach thumbnail">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Spinach</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end spinach-->
                   <div class="row"><!--tomatoes-->
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                       <label class="form-check-label" for="flexCheckDefault">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/tomato-thumb.png" title="Tomatoes thumbnail" alt="Tomatoes thumbnail">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/add-icon.png" title="Add icon" alt="Add icon">
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-7">
                       <p>Tomatoes</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/edit-icon.png" title="Edit icon" alt="Edit icon">
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <img src="images/delete-icon.png" title="Delete icon" alt="Delete icon">
                     </div>
                   </div><!--end tomatoes-->
                   <div class="row"><!--add option-->
-                    <div class="col-sm-11">
+                    <div class="col-11">
                       <p>Add Option</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-1">
                       <!--  Trigger modal -->
                       <img src="images/add-icon.png" data-bs-toggle="modal" data-bs-target="#veggieModal">
                       <!-- Modal -->

@@ -26,7 +26,7 @@ h4 {
     text-align: center;
 }
 
-.container-lg {
+.container-fluid {
     background-color: #fff;
     border: 1px solid #707070;
     overflow: hidden;
@@ -37,8 +37,17 @@ header {
     padding: 20px;
 }
 
+.navbar > .container-fluid {
+    border: none;
+}
+
 .navbar {
     background-color: #fff !important;
+}
+
+.nav-item .nav-link.active {
+    color: #ca2521;
+    font-weight: 500;
 }
 
 .pg-title {
@@ -127,3 +136,11 @@ footer p {
     margin-top: 15px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .preview,
+    .info {
+        width: 100%;
+    }
+
+ }
